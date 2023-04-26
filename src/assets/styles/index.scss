@@ -1,0 +1,85 @@
+:root {
+  --clr-primary: yellow;
+  --clr-1: #333;
+}
+body {
+  background-color: var(--clr-primary);
+  color: white;
+}
+#root {
+  header {
+    background-color: var(--clr-1);
+    padding: 24px;
+  }
+}
+main {
+  /* buraya css özellikleri gelecek */
+  color: blue;
+  padding: 30px;
+  background-color: chartreuse;
+}
+#root {
+  footer {
+    background-color: black;
+    padding: 24px;
+    color: white;
+  }
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-main {
+  border: 2px dotted red;
+  margin-top: 15px;
+}
+.nav-main {
+  ul {
+    display: flex;
+    gap: 5px;
+  }
+}
+.nav-main a {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  h2 {
+    font-size: 1.6rem;
+    margin: 10px;
+  }
+}
+main {
+  section {
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+  }
+}
+
+.card {
+  background-color: #eee;
+  color: black;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  img {
+    width: 150px;
+    height: 120px;
+    border-radius: 30%;
+  }
+  figcaption {
+    font-size: 2rem;
+  }
+}
